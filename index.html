@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LikeLion</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans:400" rel="stylesheet">
+	<style>
+		body {
+			margin-top: 4rem;
+		}
+		#intro {
+			text-align: center;
+		}
+		h1 {
+			font-family: 'Black Han Sans'
+		}
+		h3, p {
+			font-family: 'GyeonggiBatang';
+		}
+		@font-face { font-family: 'GyeonggiBatang'; 
+					 src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); 
+					 font-weight: normal; 
+					 font-style: normal; }
+		a {
+			color: black;
+		}
+		a:hover {
+			text-decoration: none;
+			color: gray;
+		}
+		#first {
+			margin: auto;
+			text-align: center;
+		}
+		li {
+			font-family: 'GyeonggiBatang';
+		}
+		.a {
+			width: 1024px;
+			margin: auto;
+			
+		}
+		.card {
+			width: 288px;
+			height: 320px;
+		}
+	</style>
+
+</head>
+<body>
+	<div class = "container" id = "intro">
+		<img src="로고.png" width="100px">
+		<h1> LIKE LION </h1>
+		<p> 첫번째 과제 
+		<br> ; <a href = "#service">지원시 작성한 IT서비스 소개</a>와 <a href = "#selfintroduce">자기소개</a> </p>
+	</div>
+	<a name = "service">
+	<table cellpadding="40" id="first">
+	<tr>
+	<td><a href = "#1st">
+		<div class="card">
+		  <div class="card-body">
+		    <p class="card-text">오늘 다닌 곳 한눈에 보기</p>
+		  </div>
+		  <img src="1.png" class="card-img-top">
+		</div>
+	</a></td>
+	<td><a href = "#2nd">
+		<div class="card">
+		  <div class="card-body">
+		    <p class="card-text">쉽고 세세하게</p>
+		  </div>
+		  <img src="2.png" class="card-img-top">
+		</div>
+	</a></td>
+	<td><a href = "#3rd">
+		<div class="card">
+		  <div class="card-body">
+		    <p class="card-text">어떤 장소에서, 어떤 일이 ?</p>
+		  </div>
+		  <img src="3.png" class="card-img-top">
+		</div>
+	</a></td>
+	</tr>
+	</table>
+	</a>
+	<br><br><br><br>
+	<div class = "container">
+		<table class ="a"><tr><td>
+		<p><img src = "물음표.png" width="50px">
+		사고 후 기억이 짧아진 친구를 대신해 친구의 하루를 기록하고 싶어 기획했습니다.<br>
+			<ul>
+			<li>서비스에 들어오지 않아도 자동으로 오늘의 기록 시작</li>
+			<li>오늘 하루 다녔던 모든 길을 표시하며, 길에 부가적인 내용을 담고 싶을 때 마킹 사용</li>
+			<li>한 장소에 머물렀던 시간을 계산하여 마킹장소 추천</li>
+			<li>주로 '등록된 장소'만을 기록할 수 있었던 타 어플들과 달리, 어떤 길을 지났는지, 그 길에서 무슨 일이 있었는지 기록 가능</li>
+			</ul>
+		</p></td></tr></table>
+	</div>
+
+	<br><br><br><br>
+	<a name ="1st">
+	<table class="a">
+		<tr>
+			<td align = "left"><h3>지도 한 장으로 보는 오늘의 기록</h3><br><br>
+				<p>하루의 패턴이 사람마다 다르기 때문에 <br>
+				처음 어플을 시작할 때 기록 시작 시각을 설정합니다.<Br> 
+				기록 시작 시간에 맞춰 출발점을 찍고 하루가 시작됩니다.<Br>
+				하루의 끝에 마킹을 하지 않는다면 오늘 지나온 길만 보입니다.
+			</p></td>
+			<td align="right"><img src = "1-1.png" width = "600px"></td>
+		</tr>
+	</table>
+	</a>
+
+	<br><br><br><br>
+	<a name ="2nd">
+	<table class="a">
+		<tr>
+			<td align="left"><img src = "2-1.png" width = "600px"></td>
+			<td align = "left"><h3>달력으로 보는 오늘의 순간</h3><br><br>
+				<p>날짜별로 무엇을 했는지 한눈에 볼 수 있습니다.<br>
+					아래의 장소는 기록할 때 선택할 수 있습니다. <br>
+					선택하지 않았을 시에는 랜덤으로 배정됩니다.<br>
+					기록을 남기지 않았을 시에는 장소 없이 지도만 보여집니다.
+			</p></td>
+		</tr>
+	</table>
+	</a>
+
+		<br><br><br><br>
+	<a name ="3rd">
+	<table class="a">
+		<tr>
+			<td align = "left"><h3>더 세세하게</h3><br><br>
+				<p>어떠한 곳만이 아닌 다닌 길의 일부를 기록 할 수 있습니다.<br>
+					길에서 일어난 일도 사진과 글을 남길 수 있습니다.<br>
+					+ 버튼을 누르면 사진을 크게 볼 수 있고,<br>
+					옆으로 넘겨 다른 사진을 볼 수 있습니다.
+			</p></td>
+			<td align="right"><img src = "3-1.png" width = "500px"></td>
+		</tr>
+	</table>
+	</a>
+
+	<br><br><br><br><br><br><br><br>
+	<a name = "selfintroduce">
+	<div class = "container">
+		<table class ="a">
+		<tr><td>
+		<h3>SELF - INTRODUCTION<br>
+			; 덕성여대 멋쟁이 사자처럼 7기 이효영</h3>
+		</td></tr>
+		<tr>
+			<td align = "center"><img src = "나야나.png" width = "700px"></td>
+		</tr>
+	</div>
+	</a>
+</body>
+</html>
